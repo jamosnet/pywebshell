@@ -11,7 +11,10 @@
 运行效果
 ![Alt Text](screenshot.gif)
 
-
+```buildoutcfg
+./webshell-py  -u myuser -pw mypassword -host 0.0.0.0 -port 8080
+./webshell-go  -u myuser -pw mypassword -host 0.0.0.0 -port 8080
+```
 
 ### python 版本
 python版本程序很快就让chatgpt写好，下面就开始在linux下编译，一开始用python3.8 ，安装依赖，pyinstaller 打包，结果运行时候提示 
