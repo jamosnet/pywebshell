@@ -1,0 +1,10 @@
+# 忽略敏感文件
+# 命令删除Git缓存（慎用）注意：如果前三个步骤，已经生效了，就不要执行此步骤了！！！直接跳到步骤四查看效果
+# git rm -r --cached .
+
+config.ini
+secret.key
+logs/
+.idea/
+.git/
+venv/
