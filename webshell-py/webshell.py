@@ -49,5 +49,5 @@ if __name__ == "__main__":
     app.run(debug=True, host=args.host, port=args.port)
 
 # 2024.03.30
-# docker run -v "$(pwd):/src/" obenn/pyinstaller-linux:python3.7-64bit-precise "pyinstaller --onefile webshell.py"
-#  ./dist/webshell  --host 192.168.1.10 -port 8080
+# docker run -v "$(pwd):/src/" obenn/pyinstaller-linux:python3.7-64bit-precise "pyinstaller --onefile webshell-py.py"
+#  ./dist/webshell-py  --host 192.168.1.10 -port 8080
