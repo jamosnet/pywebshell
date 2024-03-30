@@ -8,6 +8,11 @@
 
 最后想到了 webshell ，带上账号验证，安全性也有保障，功能也更灵活，不止是重启容器， 重启服务器也难不倒我:)
 
+运行效果
+![Alt Text](screenshot.gif)
+
+
+
 ### python 版本
 python版本程序很快就让chatgpt写好，下面就开始在linux下编译，一开始用python3.8 ，安装依赖，pyinstaller 打包，结果运行时候提示 
 ```
@@ -194,5 +199,3 @@ RUN go build -o webshell webshell.go
 RUN ls -all
 CMD ["./webshell"]
 ```
-运行效果
-![Alt Text](screenshot.gif)
