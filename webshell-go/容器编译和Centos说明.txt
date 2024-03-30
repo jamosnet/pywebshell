@@ -1,0 +1,8 @@
+
+docker build -t webshell:v1 .
+docker run -it --rm webshell:v1
+
+docker create -ti --name dummy webshell:v1 bash
+docker cp dummy:/build/webshell webshell
+docker rm -f dummy
+
