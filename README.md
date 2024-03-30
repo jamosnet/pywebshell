@@ -194,3 +194,5 @@ RUN go build -o webshell webshell.go
 RUN ls -all
 CMD ["./webshell"]
 ```
+运行效果
+![Alt Text](screenshot.gif)
